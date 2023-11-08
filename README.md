@@ -15,3 +15,8 @@ implementation. What changes between iterations of the loop?
 Is the asymptotic complexity of tail-recursive Fibonacci different from the
 non-tail-recursive version? Why, or why not? Add your answer, including your
 reasoning, to this markdown file.
+
+The run times for the fibonnacci sequence will be different. Since the normal fibonnaci recursion
+is splitting in two for each recursion call it has a run time of O(2<sup>n</sup>), while 
+the tail recursion has a complexity of O(n) because it does the fun in the call meaning
+that it only does the sum n times.
